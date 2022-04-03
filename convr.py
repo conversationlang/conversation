@@ -141,7 +141,7 @@ if 'nevermind\n' in lines or 'nevermind' in lines:
   if lines[len(lines)-1] == 'nevermind\n' or lines[len(lines)-1] == 'nevermind':
     lines = []
   else:
-    readit = f.read()
+    readit = lines.join('\n')
     for i in range(len(lines)):
       lines[i] = lines[i].strip()
     readit = readit.split('nevermind')
