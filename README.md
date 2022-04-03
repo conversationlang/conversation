@@ -1,5 +1,5 @@
 # C O N V E R S A T I O N
-Conversation requires python 3.8, pygame, and replit.
+Conversation requires python 3.8, and pygame.
 ## Installation
 ```
 >> gh repo clone shibby360/conversation
