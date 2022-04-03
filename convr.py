@@ -7,7 +7,6 @@ import random as r
 import pygame as GUI
 from pygame.locals import *
 import time
-from replit import db
 GUI.init()
 os.system('clear')
 def __():
@@ -236,13 +235,6 @@ def what_type(item):
     return decimal
   else:
     return type(item)
-def think(**thoughts):
-  if 'key' in thoughts:
-    db[thoughts['key']] = thoughts['value']
-  else:
-    thoughtees = db['thoughtStorage']
-    thoughtees.append(thoughts['thoughts']['value'])
-    db['thoughtStorage'] = thoughtees
 #Keywords
 for i in range(0, len(lines)):
   if 'whisp' in lines[i]:
